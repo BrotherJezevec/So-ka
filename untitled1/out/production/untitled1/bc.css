@@ -1,0 +1,30 @@
+.male {-fx-background-image: url('socka/obrazky_Male-button-1.png.png'); -fx-background-size: 100% 100%;}
+.female {-fx-background-image: url('socka/obrazky_Female-button-1.png.png');-fx-background-size: 100% 100%;}
+.aracora {-fx-background-image: url('socka/Fallen_Angel.png');-fx-background-size: 100% 100%;}
+.human{-fx-background-image: url('socka/Race-Human.png');-fx-background-size: 100% 100%;}
+.eyes{-fx-background-image: url('socka/obrazky_Eyes-button.png');-fx-background-size: 100% 100%;}
+.eyebrows{-fx-background-image: url('socka/obrazky_Eyebrows-button.png');-fx-background-size: 100% 100%;}
+.nose{-fx-background-image: url('socka/obrazky_Nose-button.png');-fx-background-size: 100% 100%;}
+.hair{-fx-background-image: url('socka/obrazky_Hair-colour-button.png');-fx-background-size: 100% 100%;}
+.mouth{-fx-background-image: url('socka/obrazky_Mouth-button.png');-fx-background-size: 100% 100%;}
+.haircolor{-fx-background-image: url('socka/obrazky_Hair-colour-button.png');-fx-background-size: 100% 100%;}
+.ears{-fx-background-image: url('socka/obrazky_Ears-button.png');-fx-background-size: 100% 100%;}
+.extras{-fx-background-image: url('socka/obrazky_Extras-button.png');-fx-background-size: 100% 100%;}
+.pozadi{-fx-background-image: url('socka/obrazky_Pozadi.png');-fx-background-size: 100% 100%;}
+.continue{-fx-background-image: url('socka/Continue.png');-fx-background-size: 100% 100%;}
+.ulozit{-fx-background-image: url('socka/obrazky_Creating_Import.png');-fx-background-size: 100% 100%;}
+.witchcraft{-fx-background-image: url('socka/obrazky_Witchcraft.png');-fx-background-size: 100% 100%;}
+.posta{-fx-background-image: url('socka/posta.png');-fx-background-size: 100% 100%;}
+.stables{-fx-background-image: url('socka/obrazky_Stables-button.png');-fx-background-size: 100% 100%;}
+.scouting{-fx-background-image: url('socka/obrazky_Scouting-button.png');-fx-background-size: 100% 100%;}
+.training{-fx-background-image: url('socka/obrazky_Training-button.png');-fx-background-size: 100% 100%;}
+.patrol{-fx-background-image: url('socka/obrazky_Patrol-button.png');-fx-background-size: 100% 100%;}
+.armory{-fx-background-image: url('socka/obrazky_Armory-button.png');-fx-background-size: 100% 100%;}
+.bonus{-fx-background-image: url('socka/bonus-button.png');-fx-background-size: 100% 100%;}
+.logbook{-fx-background-image: url('socka/Logbook-button.png');-fx-background-size: 100% 100%;}
+.mail{-fx-background-image: url('socka/Mail-button.png');-fx-background-size: 100% 100%;}
+.logback{-fx-background-image: url('socka/logback.png');-fx-background-size: 100% 100%;}
+.next{-fx-background-image: url('socka/next.png');-fx-background-size: 100% 100%;}
+.back{-fx-background-image: url('socka/back.png');-fx-background-size: 100% 100%;}
+.bonusbackground{-fx-background-image: url('socka/bonusplocha.png');-fx-background-size: 100% 100%;}
+.witchcraftpozadi{-fx-background-image: url('socka/Witchcraft.png');-fx-background-size: 100% 100%;}

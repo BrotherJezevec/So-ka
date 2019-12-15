@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane" prefHeight="720.0" prefWidth="720.0" styleClass="pozadi" stylesheets="@../bc.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller1">
+    <children>
+        <Button fx:id="witchcraft" layoutX="440.0" layoutY="610.0" mnemonicParsing="false" onAction="#witchcraft" prefHeight="40.0" prefWidth="120.0" styleClass="witchcraft" stylesheets="@../bc.css" />
+        <Button fx:id="armory" layoutX="300.0" layoutY="610.0" mnemonicParsing="false" onAction="#armory" prefHeight="40.0" prefWidth="120.0" styleClass="armory" stylesheets="@../bc.css" />
+        <Button fx:id="training" layoutX="20.0" layoutY="610.0" mnemonicParsing="false" onAction="#training" prefHeight="40.0" prefWidth="120.0" styleClass="training" stylesheets="@../bc.css" />
+        <Button fx:id="patrol" layoutX="160.0" layoutY="610.0" mnemonicParsing="false" onAction="#patrol" prefHeight="40.0" prefWidth="120.0" styleClass="patrol" stylesheets="@../bc.css" />
+        <Button fx:id="mail" layoutX="580.0" layoutY="610.0" mnemonicParsing="false" onAction="#mail" prefHeight="40.0" prefWidth="120.0" styleClass="mail" stylesheets="@../bc.css" />
+        <Button fx:id="scouting" layoutX="227.0" layoutY="660.0" mnemonicParsing="false" onAction="#scouting" prefHeight="40.0" prefWidth="120.0" styleClass="scouting" stylesheets="@../bc.css" />
+        <Button fx:id="stables" layoutX="82.0" layoutY="660.0" mnemonicParsing="false" onAction="#stables" prefHeight="40.0" prefWidth="120.0" styleClass="stables" stylesheets="@../bc.css" />
+        <Button fx:id="logbook" layoutX="517.0" layoutY="660.0" mnemonicParsing="false" onAction="#logbook" prefHeight="40.0" prefWidth="120.0" styleClass="logbook" stylesheets="@../bc.css" />
+        <Button fx:id="dailybonus" layoutX="372.0" layoutY="660.0" mnemonicParsing="false" onAction="#bonus" prefHeight="40.0" prefWidth="120.0" styleClass="bonus" stylesheets="@../bc.css" />
+        <AnchorPane fx:id="hraci" layoutX="20.0" layoutY="20.0" prefHeight="580.0" prefWidth="680.0" styleClass="witchcraftpozadi" stylesheets="@../bc.css">
+         <children>
+            <TextField layoutX="12.0" layoutY="473.0" prefHeight="30.0" prefWidth="142.0" />
+            <TextField layoutX="12.0" layoutY="386.0" prefHeight="30.0" prefWidth="142.0" />
+            <TextField layoutX="208.0" layoutY="430.0" prefHeight="30.0" prefWidth="142.0" />
+            <TextField layoutX="208.0" layoutY="473.0" prefHeight="30.0" prefWidth="142.0" />
+            <TextField layoutX="208.0" layoutY="386.0" prefHeight="30.0" prefWidth="142.0" />
+            <TextField layoutX="12.0" layoutY="430.0" prefHeight="30.0" prefWidth="142.0" />
+            <Button layoutX="162.0" layoutY="386.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+            <Button layoutX="162.0" layoutY="430.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+            <Button layoutX="162.0" layoutY="473.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+            <Button layoutX="358.0" layoutY="386.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+            <Button layoutX="358.0" layoutY="430.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+            <Button layoutX="358.0" layoutY="473.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" />
+            <ImageView fitHeight="250.0" fitWidth="250.0" layoutX="76.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" />
+         </children></AnchorPane>
+    </children>
+</AnchorPane>

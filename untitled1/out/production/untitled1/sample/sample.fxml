@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="720.0" styleClass="pozadi" stylesheets="@../bc.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+      <Button fx:id="male" layoutX="410.0" layoutY="130.0" mnemonicParsing="false" onAction="#gender" prefHeight="50.0" prefWidth="50.0" styleClass="male" stylesheets="@../bc.css" />
+      <Button fx:id="female" layoutX="480.0" layoutY="130.0" mnemonicParsing="false" onAction="#gender1" prefHeight="50.0" prefWidth="50.0" styleClass="female" stylesheets="@../bc.css" />
+      <Button fx:id="eyes" layoutX="40.0" layoutY="311.0" mnemonicParsing="false" onAction="#eyes" prefHeight="50.0" prefWidth="140.0" styleClass="eyes" stylesheets="@../bc.css" />
+      <Button fx:id="eyebrows" layoutX="200.0" layoutY="311.0" mnemonicParsing="false" onAction="#eyebrows" prefHeight="50.0" prefWidth="140.0" styleClass="eyebrows" stylesheets="@../bc.css" />
+      <Button fx:id="nose" layoutX="40.0" layoutY="394.0" mnemonicParsing="false" onAction="#nose" prefHeight="50.0" prefWidth="140.0" styleClass="nose" stylesheets="@../bc.css" />
+      <Button fx:id="hair" layoutX="200.0" layoutY="394.0" mnemonicParsing="false" onAction="#hair" prefHeight="50.0" prefWidth="140.0" styleClass="hair" stylesheets="@../bc.css" />
+      <TextField fx:id="jmeno" layoutX="190.0" layoutY="130.0" prefHeight="50.0" prefWidth="200.0" />
+      <Text fx:id="text" fill="#fcfafa" layoutX="54.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vyberte si jméno a vzhled postavy!">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Button fx:id="mouth" layoutX="40.0" layoutY="477.0" mnemonicParsing="false" onAction="#mouth" prefHeight="50.0" prefWidth="140.0" styleClass="mouth" stylesheets="@../bc.css" />
+      <Button fx:id="haircolor" layoutX="200.0" layoutY="477.0" mnemonicParsing="false" onAction="#haircolor" prefHeight="50.0" prefWidth="140.0" styleClass="haircolor" stylesheets="@../bc.css" />
+      <Button fx:id="ears" layoutX="40.0" layoutY="560.0" mnemonicParsing="false" onAction="#ears" prefHeight="50.0" prefWidth="140.0" styleClass="ears" stylesheets="@../bc.css" />
+      <Button fx:id="extras" layoutX="200.0" layoutY="560.0" mnemonicParsing="false" onAction="#extras" prefHeight="50.0" prefWidth="140.0" styleClass="extras" stylesheets="@../bc.css" />
+      <AnchorPane layoutX="380.0" layoutY="311.0" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: white;" stylesheets="@../bc.css">
+         <children>
+            <ImageView fx:id="imageview" fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="aracora" layoutX="160.0" layoutY="221.0" mnemonicParsing="false" onAction="#aracora" prefHeight="50.0" prefWidth="180.0" styleClass="aracora" stylesheets="@../bc.css" />
+      <Button fx:id="human" layoutX="380.0" layoutY="221.0" mnemonicParsing="false" onAction="#human" prefHeight="50.0" prefWidth="180.0" styleClass="human" stylesheets="@../bc.css" />
+      <Button fx:id="nahrani" layoutX="105.0" layoutY="630.0" mnemonicParsing="false" onAction="#nahrani" prefHeight="50.0" prefWidth="170.0" styleClass="ulozit" stylesheets="@../bc.css" />
+      <Button fx:id="uložit" layoutX="445.0" layoutY="630.0" mnemonicParsing="false" onAction="#save" prefHeight="50.0" prefWidth="170.0" styleClass="continue" stylesheets="@../bc.css" />
+   </children>
+</AnchorPane>
